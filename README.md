@@ -23,20 +23,31 @@ Recreate the following metrics:
 
 ![District Summary 2](https://github.com/yessiez/School_District_Analysis/blob/master/Resources/district_summary2.png?raw=true)
 
-#### PyCity School District Summary
+### PyCity School District Summary
+
 
   - Average math scores decreased by 0.12%.
   - Average reading scores stayed the same.
   - Percent passing math scores decreased by 0.25%.
   - Percent passing reading scores decreased by 0.35%.
-  - Overall passing scores decreased by 0.15%.
+  - The overall passing percentage for the entire district fell to 64.9%
+
+
+
+### PyCity School Summary 
 
 
 ![School Summary2](https://github.com/yessiez/School_District_Analysis/blob/master/Resources/school_summary2.png?raw=true)
 
 
-#### PyCity School Summary 
 
+![School Summary](https://github.com/yessiez/School_District_Analysis/blob/master/Resources/Untitled.png?raw=true)
+
+
+
+
+
+#### Students Passing Analysis:
   - Average math scores at Thomas High School decreased by 0.08%
   - Average reading scores at Thomas High School increased by 0.06%.
   - Percent passing math scores at Thomas High School decreased by 0.09%.
@@ -44,26 +55,53 @@ Recreate the following metrics:
   - Overall passing scores at Thomas High School decreased by 0.35%.
 
 
+#### Top Five Performing Schools
+
 ![Top Schools](https://github.com/yessiez/School_District_Analysis/blob/master/Resources/top_schools2.png?raw=true)
+
+
+#### Bottom Five Performing Schools
+
 ![Bottom Schools](https://github.com/yessiez/School_District_Analysis/blob/master/Resources/bottom_schools2.png?raw=true)
 
-#### How does replacing the ninth graders’ math and reading scores affect Thomas High School’s performance relative to the other schools?
-show top schools and bottom schools
 
-#### How does replacing the ninth-grade scores affect the following:
-- Math and reading scores by grade
-- Scores by school spending
-- Scores by school size
-- Scores by school type
+- Replacing the ninth graders’ math and reading scores at Thomas High School with NaN resulted in the following:
+  - The overall passing percentage for Thomas High School fell to 65%.
+  - Thomas High School remained on the list of top five schools.
+
+#### Math scores by grade
+
+![Math Scores2](https://github.com/yessiez/School_District_Analysis/blob/master/Resources/math_scores2.png?raw=true)
+
+#### Reading scores by grade
+
+![Reading Scores](https://github.com/yessiez/School_District_Analysis/blob/master/Resources/reading_scores_by_grade2.png?raw=true)
+
+- Affect of replacing the ninth-grade scores:
+  - Replacing the ninth-grade scores affect the following did not change the math and reading scores by grade.
 
 
+![Spending Summary](https://github.com/yessiez/School_District_Analysis/blob/master/Resources/spending_summary2.png?raw=true)
+- Scores by school spending was basically unchanged
+  - $630-644 spending range
+    - Average Math Score changed from 78.518855 to 78.502002.
+    - Average Reading Score	changed from 81.624473 to 81.636261.
+    - % Passing Math changed from 73.484209 to 73.462589.
+    - % Passing Reading	changed from 84.391793 to 84.319261
+    - % Overall Passing changed from 62.857656 to 62.778233
+				
+#### Scores by school size
 
-- - ![Math Scores](https://github.com/yessiez/School_District_Analysis/blob/master/Resources/math_scores_by_grade.png?raw=true)
-- ![Math Scores2](https://github.com/yessiez/School_District_Analysis/blob/master/Resources/math_scores2.png?raw=true)
-  - Math and reading scores by grade
-  - Scores by school spending
-  - Scores by school size
-  - Scores by school type
+![School size](https://github.com/yessiez/School_District_Analysis/blob/master/Resources/size_summary2.png?raw=true)
 
-# Summary: Summarize four changes in the updated school district analysis after reading and math scores for the ninth grade at Thomas High School have been replaced with NaNs.
-There is a statement summarizing four changes to the school district analysis after reading and math scores have been replaced (5 pt).
+#### Scores by school type
+
+![School Type](https://github.com/yessiez/School_District_Analysis/blob/master/Resources/type_summary2.png?raw=true)
+
+# Summary
+After the ninth grade reading and math scores at Thomas High School have been replaced with NaNs:
+  1. Average math scores at Thomas High School decreased by 0.08%
+  2. Average reading scores at Thomas High School increased by 0.06%.
+  3. Percent passing math scores at Thomas High School decreased by 28.26%.
+  4. Percent passing reading scores at Thomas High School decreased by 28.41%
+  5. Overall passing scores at Thomas High School decreased by 28.45%.
